@@ -33,6 +33,7 @@ export const Sorteio = () => {
               <option key={participante}>{participante}</option>
             ))}
           </select>
+          <p>Clique em em sortear para ver quem é seu amigo secreto!</p>
           <button className="btn-sortear">Sortear</button>
         </form>
         {Boolean(amigoSecreto) && (
